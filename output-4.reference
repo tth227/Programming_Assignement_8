@@ -1,0 +1,213 @@
+Priority Queue with flowers ordered by name
+
+Test case 1: PriorityQueue constructued correctly 
+18 flowers read from the file and added to the priority queue
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Hyacinth, [purple, blue, pink, red, orange, yellow, white])
+(Iris, [purple, blue])
+(Jasmin, [white, yellow, pink])
+(Lavender, [purple])
+(Lily, [orange, pink, white, purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Test case 2: Method contains (successful)
+Tree contains "Rose"? true
+
+Test case 3: Method contains (fail)
+Tree contains "Coquelicot"? false
+
+Test case 4: Method remove (successful)
+"Hyacinth" removed? true
+
+Test case 5: Method remove (fail)
+"Musk" removed? false
+
+Test case 6: Method addAll
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Iris, [purple, blue])
+(Jasmin, [white, yellow, pink])
+(Lavender, [purple])
+(Lily, null)
+(Lily, null)
+(Lily, null)
+(Lily, null)
+(Lily, null)
+(Lily, [orange, pink, white, purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Test case 7: Method retainAll
+(Lily, [orange, pink, white, purple])
+
+Test case 8: Method removeAll 
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Iris, [purple, blue])
+(Jasmin, [white, yellow, pink])
+(Lavender, [purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Priority Queue with flowers ordered by their number of colors
+
+Test case 9: PriorityQueue constructued using the number of colors 
+(Lavender, [purple])
+(Violet, [purple, blue])
+(Iris, [purple, blue])
+(Yew, [green, yellow])
+(Jasmin, [white, yellow, pink])
+(Narcissus, [white, yellow, pink, orange])
+(Camelia, [white, pink, red, yellow])
+(Lily, [orange, pink, white, purple])
+(Cosmos, [pink, white, red, orange, yellow])
+(Begonia, [pink, red, yellow, orange, purple])
+(Geranium, [white, red, pink, purple, orange])
+(Magnolia, [white, pink, purple, yellow, red])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Hyacinth, [purple, blue, pink, red, orange, yellow, white])
+
+TreeSet with flowers ordered by name
+
+Test case 10: Tree constructued correctly 
+18 flowers read from the file and added to the binary search tree
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Hyacinth, [purple, blue, pink, red, orange, yellow, white])
+(Iris, [purple, blue])
+(Jasmin, [white, yellow, pink])
+(Lavender, [purple])
+(Lily, [orange, pink, white, purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+
+Test case 11: Method contains (successful)
+Tree contains "Rose"? true
+
+Test case 12: Method contains (fail)
+Tree contains "Coquelicot"? false
+
+Test case 13: Method remove (successful)
+"Hyacinth" removed? true
+
+Test case 14: Method remove (fail)
+"Musk" removed? false
+
+Test case 15: Method addAll
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Iris, [purple, blue])
+(Jasmin, [white, yellow, pink])
+(Lavender, [purple])
+(Lily, [orange, pink, white, purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Test case 16: Method retainAll
+(Lily, [orange, pink, white, purple])
+
+Test case 17: Method removeAll
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Iris, [purple, blue])
+(Jasmin, [white, yellow, pink])
+(Lavender, [purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Test case 18: Method first
+First: (Begonia, [pink, red, yellow, orange, purple])
+
+Test case 19: Method last
+Last : (Yew, [green, yellow])
+
+Test case 20: Method ceiling (succesful: key is the ceiling)
+Ceiling("Daisy") : (Daisy, [white, yellow, purple, red, orange, blue])
+
+Test case 21: Method ceiling (succesful: ceiling found)
+Ceiling("Dandrum") : (Geranium, [white, red, pink, purple, orange])
+
+Test case 22: Method ceiling (fail: no ceiling)
+Ceiling("Zebra") : null
+
+Test case 23: Method floor (successful: key is the floor)
+floor("Iris") : (Iris, [purple, blue])
+
+Test case 24: Method floor (successful: floor found)
+floor("Boba") : (Begonia, [pink, red, yellow, orange, purple])
+
+Test case 25: Method floor (fail: no floor)
+floor("Art") : null
+
+
+TreeSet with flowers orderd by their number of colors
+
+Test case 26: Tree constructued correctly
+(Lavender, [purple])
+(Violet, [purple, blue])
+(Jasmin, [white, yellow, pink])
+(Narcissus, [white, yellow, pink, orange])
+(Geranium, [white, red, pink, purple, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Hyacinth, [purple, blue, pink, red, orange, yellow, white])
