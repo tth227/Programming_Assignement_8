@@ -41,8 +41,8 @@ public class Test{
        
         System.out.print("\nTest case 6: Method addAll\n");
         PriorityQueue<Pair<String,ArrayList<String>>> pqCopy = (PriorityQueue<Pair<String,ArrayList<String>>>) (pq.clone());
-       //pqCopy.addAll(c);
-        //print(pqCopy.iterator()); 
+       pqCopy.addAll(c);
+        print(pqCopy.iterator()); 
         System.out.print("\nTest case 7: Method retainAll\n");
         pqCopy = (PriorityQueue<Pair<String,ArrayList<String>>>) (pq.clone());
         pqCopy.retainAll(c);

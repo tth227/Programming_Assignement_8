@@ -280,22 +280,14 @@ public class PriorityQueue<E> implements Cloneable{
      * Time complexity: O(n), where n is the size of the collection c
      */
     public boolean addAll(Collection<?> c){
-        boolean flag = false;
         Iterator<?> iter = c.iterator();
         
         while (iter.hasNext()) {
             Object element = iter.next();
-                if (list.add((E) element)) {
-                flag = true;
+                offer((E) element);
             }
-        }
-
-        // Rebuild the heap 
-        for (int i = list.size() / 2 - 1; i >= 0; i--) {
-            checkHeap(i, false);  // Check the heap from the middle to the root
-        }
-
-        return flag;
+        
+        return true;
     }
 
 
@@ -311,14 +303,9 @@ public class PriorityQueue<E> implements Cloneable{
         while (iter.hasNext()) {
             E element = iter.next();
                 if (!c.contains(element)) {
-                iter.remove();
+                list.remove(element);
                 flag = true;
             }
-        }
-
-        // Rebuild the heap 
-        for (int i = list.size() / 2 - 1; i >= 0; i--) {
-            checkHeap(i, false);  // Check the heap from the middle to the root
         }
 
         return flag;
@@ -335,14 +322,9 @@ public class PriorityQueue<E> implements Cloneable{
         while (iter.hasNext()) {
             E element = iter.next();
                 if (c.contains(element)) {
-                iter.remove();
+                list.remove(element);
                 flag = true;
             }
-        }
-
-        // Rebuild the heap 
-        for (int i = list.size() / 2 - 1; i >= 0; i--) {
-            checkHeap(i, false);  // Check the heap from the middle to the root
         }
 
         return flag;

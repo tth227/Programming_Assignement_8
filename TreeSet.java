@@ -284,7 +284,6 @@ public class TreeSet<E> implements Cloneable{
         
         while (iter.hasNext()) {
             Object element = iter.next();
-            
             if (!contains((E) element)) {
                 if (remove((E) element)) {
                     flag = true;
@@ -306,7 +305,6 @@ public class TreeSet<E> implements Cloneable{
         
         while (iter.hasNext()) {
             Object element = iter.next();
-            
             if (contains((E) element)) {
                 if (remove((E) element)) {
                     flag = true;
